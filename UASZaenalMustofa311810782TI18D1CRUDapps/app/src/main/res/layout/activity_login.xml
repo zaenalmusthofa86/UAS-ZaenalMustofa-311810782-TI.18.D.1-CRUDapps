@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/txtmasuk"
+        android:layout_marginTop="100dp"
+        android:text="@string/masuk"
+        android:textSize="11pt"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:layout_below="@+id/txtmasuk"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/pwd"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:password="true"
+        android:layout_below="@+id/email"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_below="@+id/pwd"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnlogin"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlogin"
+        android:textColor="#0c7afb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/underline"/>
+
+</RelativeLayout>

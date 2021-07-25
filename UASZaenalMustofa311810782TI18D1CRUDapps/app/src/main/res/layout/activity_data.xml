@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".DataActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:id="@+id/btnbdata"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/daftar"
+        android:layout_marginTop="30dp"
+        android:text="Input Data"
+        android:textSize="11pt"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/fullname"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Data A"
+        android:layout_below="@+id/daftar"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:hint="Data B"
+        android:layout_below="@+id/fullname"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/pwd"
+        android:gravity="center"
+        android:hint="Data C"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/email"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/spinner"
+        android:layout_marginTop="15dp"
+        android:entries="@array/datad"
+        android:prompt="@string/data_d"
+        android:layout_below="@+id/pwd"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/datae"
+        android:gravity="center"
+        android:hint="Data C"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/spinner"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dataf"
+        android:gravity="center"
+        android:hint="Data f"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/datae"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/datag"
+        android:gravity="center"
+        android:hint="Data g"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dataf"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/laydate"
+        android:orientation="horizontal"
+        android:layout_below="@+id/datag">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="select date"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_date_range_24"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_below="@+id/laydate"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btndaftar"
+        android:textColor="#fff"
+        android:text="Save"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

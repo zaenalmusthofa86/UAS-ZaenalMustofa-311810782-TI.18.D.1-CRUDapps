@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UAS-ZaenalMustofa-311810782-TI.18.D1-CRUDapps</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="fullname">Fullname</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="login">Login</string>
+    <string name="masuk">Masuk</string>
+    <string name="underline">
+     <u>Create New Account</u>.
+    </string>
+    <string name="data_d">Data D</string>
+    <string-array name="datad">
+        <item>data d1</item>
+        <item>data d2</item>
+        <item>Data d3</item>
+    </string-array>
+</resources>
