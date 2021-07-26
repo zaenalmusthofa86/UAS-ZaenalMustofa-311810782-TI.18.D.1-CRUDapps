@@ -5,7 +5,8 @@
 ![img](https://github.com/zaenalmusthofa86/UAS-ZaenalMustofa-311810782-TI.18.D.1-CRUDapps/blob/main/img/Get_Started.JPG)
 
 ```
-Tampilan halaman awal ini muncul setelah Splash Screen,terdapat dua buah tombol button yaitu Get's Started 
+Tampilan halaman awal ini muncul setelah Splash Screen,
+terdapat dua buah tombol button yaitu Get's Started 
 yang ketika diklik akan menuju ke halaman Sign In,
 dan juga tombol button Sign In apabila diklik akan menuju kehalaman Register.
 ```
@@ -54,7 +55,7 @@ Halaman machine dapat melakukan CRUD yaitu menambah, menghapus, dan mengubah dat
 
 * Daily Report
 
-![img](https://github.com/zaenalmusthofa86/UAS-ZaenalMustofa-311810782-TI.18.D.1-CRUDapps/blob/main/img/Buttom_Add_Data.JPG)
+![img](https://github.com/zaenalmusthofa86/UAS-ZaenalMustofa-311810782-TI.18.D.1-CRUDapps/blob/main/img/Daily_Report.JPG)
 
 ```
 Daily report digunakan untuk melihat daftar laporan yang dilaporkan tiap harinya.
