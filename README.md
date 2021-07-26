@@ -5,9 +5,8 @@
 ![img](https://github.com/zaenalmusthofa86/UAS-ZaenalMustofa-311810782-TI.18.D.1-CRUDapps/blob/main/img/Get_Started.JPG)
 
 ```
-Tampilan halaman awal ini muncul setelah Splash Screen,
-terdapat dua buah tombol button yaitu Get's Started 
-yang ketika diklik akan menuju ke halaman Sign In,
+Tampilan halaman awal ini muncul setelah Splash Screen.
+Terdapat dua buah tombol button yaitu Get's Started yang ketika diklik akan menuju ke halaman Sign In,
 dan juga tombol button Sign In apabila diklik akan menuju kehalaman Register.
 ```
 
